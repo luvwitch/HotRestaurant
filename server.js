@@ -8,6 +8,18 @@ var PORT = 3000;
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
+// Reservations array
+// =============================================================
+var reservations = [
+    {
+        name: "Alex Kelly",
+        email: "itsalexkelly@gmail.com",
+        phone: "716-867-5309",
+        nickname: "AK"
+
+    }
+];
+
 // Routes
 // =============================================================
 
