@@ -36,11 +36,15 @@ var waitList = reservations.filter(res => reservations.indexOf(res) >= 5)
 // =============================================================
 
 // Basic route that sends the user first to the AJAX Page
-app.get("/", function(req, res) {
+app.get("/index.html", function(req, res) {
+    res.sendFile(path.join(__dirname, "index.html"));
+  });
+
+  app.get("/tables.html", function(req, res) {
     res.sendFile(path.join(__dirname, "tables.html"));
   });
   
-  app.get("/add", function(req, res) {
+  app.get("/reserve.html", function(req, res) {
     res.sendFile(path.join(__dirname, "reserve.html"));
   });
   
