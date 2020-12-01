@@ -22,9 +22,9 @@ var reservations = [
 // =============================================================
 var waitlist = [
     {
-        name: "Leroy Jenkins"
-        email: "lj@wow.com"
-        phone: "123-456-7890"
+        name: "Leroy Jenkins",
+        email: "lj@wow.com",
+        phone: "123-456-7890",
         nickname: "leroy"
 
     },
