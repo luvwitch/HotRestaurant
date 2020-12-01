@@ -15,13 +15,13 @@ var reservations = [
         name: "Alex Kelly",
         email: "itsalexkelly@gmail.com",
         phone: "716-867-5309",
-        nickname: "AK"
+        id: "AK"
     },
     {
         name: "Leroy Jenkins",
         email: "lj@wow.com",
         phone: "123-456-7890",
-        nickname: "leroy"
+        id: "leroy"
 
     },
 ];
