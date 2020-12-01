@@ -16,9 +16,19 @@ var reservations = [
         email: "itsalexkelly@gmail.com",
         phone: "716-867-5309",
         nickname: "AK"
-
-    }
+    },
 ];
+// Waitlist array
+// =============================================================
+var waitlist = [
+    {
+        name: "Leroy Jenkins"
+        email: "lj@wow.com"
+        phone: "123-456-7890"
+        nickname: "leroy"
+
+    },
+]
 
 // Routes
 // =============================================================
