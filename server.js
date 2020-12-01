@@ -26,6 +26,8 @@ var reservations = [
     },
 ];
 
+var resArr = reservations.filter(res => reservations.indexOf(res) < 5)
+var waitList = reservations.filter(res => reservations.indexOf(res) >= 5)
 
 // Routes
 // =============================================================
