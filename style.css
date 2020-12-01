@@ -2,6 +2,14 @@
     background-color: red;
 }
 
+#gray {
+    background-color: gray;
+}
+
+#fire {
+    color: red;
+}
+
 #center {
     text-align: center;
 }
