@@ -17,10 +17,6 @@ var reservations = [
         phone: "716-867-5309",
         nickname: "AK"
     },
-];
-// Waitlist array
-// =============================================================
-var waitlist = [
     {
         name: "Leroy Jenkins",
         email: "lj@wow.com",
@@ -28,7 +24,8 @@ var waitlist = [
         nickname: "leroy"
 
     },
-]
+];
+
 
 // Routes
 // =============================================================
