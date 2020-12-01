@@ -1,6 +1,7 @@
 
 // Sets up the Express App
 // =============================================================
+var express = require('express');
 var app = express();
 var PORT = 3000;
 
